@@ -1,2 +1,0 @@
-# mgomezbuceta.github.io
-Portfolio
