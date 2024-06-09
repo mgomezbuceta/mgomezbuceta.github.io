@@ -1,6 +1,6 @@
 /* ------------------------------------------------
  Author: ArtStyles (Art)
- 
+
  Template Name: vCard
  version: 1.1.0
 ------------------------------------------------ */
@@ -29,7 +29,7 @@
  - Testimonials
  - Timeline
  - Other
- 
+
 ------------------------------------------------ */
 @import url(vendors/bootstrap.min.css);
 @import url(vendors/swiper.min.css);
@@ -52,7 +52,7 @@ html {
   -webkit-overflow-scrolling: touch;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -ms-overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 body, html {
@@ -927,6 +927,11 @@ button:focus {
   margin-right: auto;
   transition: all .3s ease-in-out;
 }
+
+.circular-square {
+  border-radius: 75%;
+}
+
 .sidebar__user-name {
   font-size: 1.8125rem;
   font-family: "Merriweather", serif;
@@ -1831,7 +1836,6 @@ button:focus {
     margin-bottom: 2rem;
     padding: 0.1875rem 1.1875rem 0.1875rem 1.5rem;
     position: relative;
-    vertical-align: middle;
     text-align: left;
     user-select: none;
     width: 100%;
