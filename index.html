@@ -43,7 +43,7 @@
 		<!-- Mapbox-->
 		<script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
 		<link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
-		<style>.skills-list{display:flex;flex-wrap:wrap;gap:.5rem}.skills-list .badge{font-size:.875rem}</style>
+		<style>.skills-list{display:flex;flex-wrap:wrap;gap:.5rem}.skills-list .badge{font-size:.875rem}.stat{display:flex;flex-direction:column;align-items:center;text-align:center;padding:1.25rem .75rem;margin-bottom:1.875rem}.stat__number{font-size:2rem;font-weight:700;line-height:1.1;color:#0081ff}.stat__label{font-size:.875rem;margin-top:.25rem}.cta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem}.cta__links{display:flex;flex-wrap:wrap;align-items:center;gap:1rem}.cta__links .btn{margin:0}</style>
 	</head>
 
 	<body class="bg-triangles">
@@ -125,23 +125,55 @@
 									<!-- ABOUT -->
 									<div class="pb-0 pb-sm-2">
 										<h1 class="title title--h1 first-title title__separate">About Me</h1>
-										<p>With a strong foundation in geography and information technology, I have developed my career at Sixtema,
-										where I create and implement advanced web solutions. I have honed my expertise in PHP development,
-										database management and cybersecurity, and I apply SOLID principles to build maintainable software.</p>
+										<p>I'm a senior backend analyst and PHP developer based in Galicia, Spain. Since 2008 I have been building
+										web applications, APIs and databases, and since 2015 I have been doing it at Sixtema, where I lead
+										projects from requirements analysis to production.</p>
+										<p>I come from geography, which is why I enjoy projects with maps and spatial data. Day to day I work with
+										PHP, CakePHP, Laravel, MySQL and PostgreSQL, take care of the Linux servers and Docker containers they run
+										on, and keep learning: cybersecurity, Python and generative AI are my latest courses.</p>
+									</div>
+
+									<!-- Stats -->
+									<div class="box-inner pb-0">
+										<div class="row">
+											<div class="col-6 col-md-3">
+												<div class="stat box box__second">
+													<span class="stat__number">18+</span>
+													<span class="stat__label">years coding in PHP</span>
+												</div>
+											</div>
+											<div class="col-6 col-md-3">
+												<div class="stat box box__second">
+													<span class="stat__number">11</span>
+													<span class="stat__label">years at Sixtema</span>
+												</div>
+											</div>
+											<div class="col-6 col-md-3">
+												<div class="stat box box__second">
+													<span class="stat__number">10</span>
+													<span class="stat__label">certifications &amp; courses</span>
+												</div>
+											</div>
+											<div class="col-6 col-md-3">
+												<div class="stat box box__second">
+													<span class="stat__number">4</span>
+													<span class="stat__label">employers</span>
+												</div>
+											</div>
+										</div>
 									</div>
 
 									<!-- What -->
 									<div class="box-inner pb-0">
-										<h2 class="title title--h3">What I'm Doing</h2>
+										<h2 class="title title--h3">What I Do</h2>
 										<div class="row">
 											<!-- Case Item -->
 											<div class="col-12 col-lg-6">
 												<div class="case-item box box__second">
 													<img class="case-item__icon" src="assets/icons/dark/icon-dev.svg" alt="" />
 													<div>
-														<h3 class="title title--h5">Web Development</h3>
-														<p class="case-item__caption">High-quality development of sites at the
-															professional level.</p>
+														<h3 class="title title--h5">Backend Development</h3>
+														<p class="case-item__caption">Web applications and back offices in PHP with CakePHP and Laravel, built on SOLID principles and clean code.</p>
 													</div>
 												</div>
 											</div>
@@ -150,9 +182,8 @@
 												<div class="case-item box box__second">
 													<img class="case-item__icon" src="assets/icons/dark/icon-app.svg" alt="" />
 													<div>
-														<h3 class="title title--h5">Mobile Apps</h3>
-														<p class="case-item__caption">Professional development of APIs for
-															applications (iOS and Android).</p>
+														<h3 class="title title--h5">APIs for Mobile Apps</h3>
+														<p class="case-item__caption">REST APIs that power iOS and Android apps: authentication, OAuth, push notifications and PDF reports.</p>
 													</div>
 												</div>
 											</div>
@@ -161,9 +192,8 @@
 												<div class="case-item box box__second">
 													<img class="case-item__icon" src="assets/icons/dark/icon-database.svg" alt="" />
 													<div>
-														<h3 class="title title--h5">Database Design</h3>
-														<p class="case-item__caption">From data modeling, database design, analysis
-															techniques and object-oriented design to database administration.</p>
+														<h3 class="title title--h5">Databases &amp; GIS</h3>
+														<p class="case-item__caption">Data modelling and administration in MySQL and PostgreSQL, with PostGIS, MapServer and Leaflet for geographic data.</p>
 													</div>
 												</div>
 											</div>
@@ -172,16 +202,48 @@
 												<div class="case-item box box__second">
 													<img class="case-item__icon" src="assets/icons/dark/icon-server.svg" alt="" />
 													<div>
-														<h3 class="title title--h5">Manage Computer System</h3>
-														<p class="case-item__caption">Diagnosis of hardware and software problems,
-															equipment configuration, design and analysis of computer ecosystem
-															structures.</p>
+														<h3 class="title title--h5">Systems &amp; DevOps</h3>
+														<p class="case-item__caption">Linux servers, Docker containers, VMware virtualisation, SSL certificates, backups and updates.</p>
+													</div>
+												</div>
+											</div>
+											<!-- Case Item -->
+											<div class="col-12 col-lg-6">
+												<div class="case-item box box__second">
+													<img class="case-item__icon" src="assets/icons/dark/icon-computer.svg" alt="" />
+													<div>
+														<h3 class="title title--h5">Data &amp; Dashboards</h3>
+														<p class="case-item__caption">Turning data into decisions with Apache Superset dashboards and data analysis.</p>
+													</div>
+												</div>
+											</div>
+											<!-- Case Item -->
+											<div class="col-12 col-lg-6">
+												<div class="case-item box box__second">
+													<img class="case-item__icon" src="assets/icons/dark/icon-experience.svg" alt="" />
+													<div>
+														<h3 class="title title--h5">Project Management</h3>
+														<p class="case-item__caption">Requirements analysis, planning and coordination of development teams from kickoff to delivery.</p>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
 
+									<!-- Contact -->
+									<div class="box-inner">
+										<div class="cta box box__second">
+											<div>
+												<h2 class="title title--h3 mb-1">Let's work together</h2>
+												<p class="mb-0">Have a project or a role in mind? Write to me and I'll get back to you.</p>
+											</div>
+											<div class="cta__links">
+												<a class="btn" href="mailto:mgomezbuceta@gmail.com"><i class="font-icon icon-envelope"></i> Email me</a>
+												<a class="cta__link" href="https://www.linkedin.com/in/mgomezbuceta/" target="_blank" rel="noopener">LinkedIn</a>
+												<a class="cta__link" href="https://github.com/mgomezbuceta" target="_blank" rel="noopener">GitHub</a>
+											</div>
+										</div>
+									</div>
 								</div>
 
 								<!-- RESUME -->
